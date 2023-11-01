@@ -1,0 +1,61 @@
+header{
+  background-color: rgba(128, 128, 128, 0.479);
+}
+
+nav {
+  display: flex;
+
+}
+
+.logo {
+
+  margin-left: 2em;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a img {
+  margin: 1em;
+  width: 5em;
+  height: 5em;
+
+  border-radius: 2.5em;
+}
+
+.logo a span {
+  font-size: 1.5em;
+  font-style: italic;
+  color: black;
+}
+
+.search-form input {
+  padding: 0.5em;
+  margin: 2em 0 2em 2em;
+  border-radius: 0.5em 0 0 0.5em;
+  width: 40em;
+  height: 3em;
+}
+
+.search-form button {
+  width: 3em;
+  height: 3em;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: rgb(238, 64, 64);
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 0 1em;
+  padding: 2em;
+  width: 30em;
+  list-style: none;
+}
+
+.lista li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}
